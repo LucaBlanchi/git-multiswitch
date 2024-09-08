@@ -3,7 +3,7 @@ git-multiswitch is a command line utility for switching branch in multiple git r
 
 # HOW TO CONFIGURE IT
 Edit repos.json to store the relevant repositories: the keys are the name of the repo folders, and the values are the absolute paths to the folder holding them (repos do no have to share the same path).
-Envs can be added throw the command line utility (recommended), or manually following /envs/example.json
+Envs can be added throgh the command line utility (recommended), or manually following /envs/example.json
 
 # HOW TO USE IT
 Launch `main.py` as a python script. You have now access to the following commands:
