@@ -7,13 +7,11 @@ class CommandLauncher:
     def __init__(self):
         self.loop = True
         self.commands = {
-            'quit': self.quit,
-            'q': self.quit,
+            'q': self.q,
             'clear': self.clear,
             'switch': self.switch,
             'ls': self.ls,
             'save': self.save,
-            'add': self.save,
             'rm': self.rm
         }
         self.load_repos()
@@ -38,7 +36,7 @@ class CommandLauncher:
         with open(self.repos_file_path, 'r') as f:
             self.repos = json.load(f)
 
-    def quit(self, params):
+    def q(self, params):
         self.loop = False
     
     def clear(self, params):
