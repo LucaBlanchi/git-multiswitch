@@ -8,7 +8,7 @@ Envs can be added throgh the command line utility (recommended), or manually fol
 # How to use it
 Launch `main.py` as a python script. You have now access to the following commands:
 
-- switch {env_name}, or simply {env_name}: switch to the env (combination of branches) stored in /envs/{env_name}
+- switch {env_name}, or simply {env_name}: switch to the env (combination of branches) stored in /envs/{env_name}.json
 - save {env_name}: save the current env to a corresponding {env_name}.json file
 - ls: list the current envs
 - rm: {env_name}: remove {env_name}.json env
