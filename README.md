@@ -10,8 +10,8 @@ Launch `main.py` as a python script. You have now access to the following comman
 
 - switch {env_name}, or simply {env_name}: switch to the env (combination of branches) stored in /envs/{env_name}.json
 - save {env_name}: save the current env to a corresponding {env_name}.json file
-- ls: list the current envs
-- rm: {env_name}: remove {env_name}.json env
+- ls: list the stored envs
+- rm {env_name}: remove {env_name}.json env
 - clear: clear console, as in bash
 - q: close the program
 
